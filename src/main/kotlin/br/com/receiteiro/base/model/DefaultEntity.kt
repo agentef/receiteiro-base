@@ -1,6 +1,6 @@
 @file:Suppress("unused")
 
-package br.com.receiteiro.base
+package br.com.receiteiro.base.model
 
 import org.hibernate.annotations.CreationTimestamp
 import org.hibernate.annotations.UpdateTimestamp
