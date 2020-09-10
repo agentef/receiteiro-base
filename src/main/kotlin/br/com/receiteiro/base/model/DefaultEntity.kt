@@ -8,7 +8,7 @@ import java.time.LocalDateTime
 import javax.persistence.*
 
 @MappedSuperclass
-class DefaultEntity {
+open class DefaultEntity {
 
         @Id
         @GeneratedValue(strategy = GenerationType.IDENTITY)
