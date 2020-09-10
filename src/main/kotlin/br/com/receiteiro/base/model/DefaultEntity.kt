@@ -12,7 +12,7 @@ open class DefaultEntity {
 
         @Id
         @GeneratedValue(strategy = GenerationType.IDENTITY)
-        var id = 0
+        var id: Long = 0
 
         @CreationTimestamp
         var createdAt: LocalDateTime? = LocalDateTime.now()
